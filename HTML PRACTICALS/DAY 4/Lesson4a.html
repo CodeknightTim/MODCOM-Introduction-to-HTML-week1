@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<body>
+<h2>Agri Choice</h2>
+<p>For Best Farm Produce</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In quod impedit tempore corrupti inventore hic provident voluptatem quaerat quo quos, ut beatae, commodi unde veniam ex labore vero odit ab.</p>
+<table border="1" width = "80%" >
+      <caption >foodstuff </caption>
+<tr>
+     <th bgcolor= lightgray>Product</th>      <!-- bgcolor is for adding background color to any `row -->
+     <th bgcolor= lightgray>Cost</th>
+     <th bgcolor= lightgray>Quantity</th>
+     <th bgcolor= lightgray>Contact Person</th>
+
+</tr>
+<tr>
+     <td>Maize</td>
+     <td>80KES/kg</td>
+     <td>40</td>
+     <td>254729225***</td>
+</tr>
+<tr>
+      <td>Beans</td>
+      <td>80KES/kg</td>
+      <td>40</td>
+      <td>254729225***</td>
+</tr>
+
+<tr>
+      <td>Peas</td>
+      <td>50KES/kg</td>
+      <td>20</td>
+      <td>254729678***</td>
+</tr>
+
+
+<!-- COLSPAN -->
+<!--Please note we had 4 columns in the begining, below we do 2 columns instead of 4, we then need to colspan = 2
+for every colums so that to fit the 4-->
+<tr> 
+      <td colspan="2">Packed Fruits</td>
+      <td colspan="1">300KES</td>
+      <td rowspan="2">20% OFF</td>
+</tr>
+
+<tr> 
+      <td colspan="2">Packed Lemon</td>
+      <td colspan="1">500KES</td>
+      
+</tr>
+
+</table>
+<br><br><br>
+
+<table border="1" align="center" width="60%" > 
+      <caption>
+
+            savings
+        
+          </caption>
+      <thead>
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>January</td>
+          <td>ksh100</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>ksh80</td>
+        </tr>
+        <tr>
+            <td>March</td>
+            <td rowspan="2">ksh80</td>
+        </tr>
+        <tr>
+            <td>April</td>
+        </tr>
+        <tr>
+            <td>May</td>
+            <td>ksh80</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Sum</td>
+          <td>ksh420</td>
+        </tr>
+      </tfoot>
+    </table>
+    <!-- The <thead> tag is used to group header content in an HTML table. The <thead> element is used in conjunction with the <tbody> and <tfoot> elements to specify each part of a table (header, body, footer). Browsers can use these elements to enable scrolling of the table body independently of the header and footer. -->
+
+      <!-- it is important to understand that both the <th> and <thead> tags are utilized to provide headers in HTML tables. However, the <th> tag is used to provide a header in a table cell, whereas the <thead> tag is used to provide a header for a table group. -->
+</body>
+</html>
